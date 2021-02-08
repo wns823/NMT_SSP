@@ -15,3 +15,8 @@ git clone https://github.com/wns823/fairseq-ssp.git
 cd fairseq-ssp
 pip install --editable .
 ```
+
+## Getting Started
+------------
+### Data preprocessing
+First,
