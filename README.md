@@ -18,3 +18,11 @@ pip install --editable .
 
 ### Data preprocessing
 First,
+
+
+### Train a transformer with SSP
+First, 
+
+
+### Generate
+First, 
