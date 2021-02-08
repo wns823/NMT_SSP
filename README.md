@@ -7,7 +7,7 @@
 - Pytorch version == 1.7.1
 - Python version >= 3.7
 
-Installing from source
+>>> Installing from source
 
 To install fairseq from source and develop locally :
 '''
