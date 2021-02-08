@@ -1,11 +1,11 @@
-# Introduction
+## Introduction
 ------------
 
 
-# Requirments and Installation
+## Requirments and Installation
 ------------
-Pytorch version == 1.7.1
-Python version >= 3.7
+- Pytorch version == 1.7.1
+- Python version >= 3.7
 
 Installing from source
 
