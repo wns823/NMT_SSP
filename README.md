@@ -4,7 +4,7 @@ This repository contains the code for transformer with SSP(Source-conditioned ma
 
 ## Requirments and Installation
 ------------
-- Pytorch version == 1.7.1
+- [Pytorch](https://pytorch.org) version == 1.7.1
 - Python version >= 3.7
 
 Installing from source
