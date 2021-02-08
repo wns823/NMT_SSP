@@ -2,7 +2,6 @@
 This repository contains the code for transformer with SSP(Source-conditioned masked Span Prediction), which is introduce in the ACL2021 submitted paper [Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction]().
 
 ## Requirments and Installation
-------------
 - [Pytorch](https://pytorch.org) version == 1.7.1
 - Python version >= 3.7
 
@@ -16,6 +15,6 @@ pip install --editable .
 ```
 
 ## Getting Started
-------------
+
 ### Data preprocessing
 First,
