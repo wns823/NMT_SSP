@@ -9,8 +9,10 @@ This repository contains the code for the ACL-21 paper:[Improving Lexically Cons
 
 To install fairseq from source and develop locally :
 ```
-git clone https://github.com/wns823/fairseq-ssp.git
+git clone https://github.com/wns823/NMT_SSP.git
 cd NMT_SSP
+git clone https://github.com/moses-smt/mosesdecoder.git
+git clone https://github.com/rsennrich/subword-nmt.git
 pip install --editable .
 ```
 
