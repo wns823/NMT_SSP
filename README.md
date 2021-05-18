@@ -1,5 +1,5 @@
 ## Introduction
-This repository contains the code for transformer with SSP(Source-conditioned masked Span Prediction), which is introduce in the ACL2021 submitted paper [Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction]().
+This repository contains the code for the ACL-21 paper:[Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
 
 ## Requirments and Installation
 - [Pytorch](https://pytorch.org) version == 1.7.1
@@ -10,7 +10,7 @@ This repository contains the code for transformer with SSP(Source-conditioned ma
 To install fairseq from source and develop locally :
 ```
 git clone https://github.com/wns823/fairseq-ssp.git
-cd fairseq-ssp
+cd NMT_SSP
 pip install --editable .
 ```
 
