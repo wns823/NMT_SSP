@@ -14,6 +14,8 @@ cd NMT_SSP
 git clone https://github.com/moses-smt/mosesdecoder.git
 git clone https://github.com/rsennrich/subword-nmt.git
 pip install --editable .
+pip install wandb
+pip install spacy
 ```
 
 ## Getting Started
@@ -32,7 +34,10 @@ Step5. Binarize dataset (binarize_dataset.sh)
 Step6. Span making (make_tok.sh -> make_span.py)
 
 ### Train a transformer with SSP
-First, 
+```bash
+bash train.sh gpu_number domain source target model_path span loss_ratio min_span max_span dropout
+ex) bash train.sh 3 acquis de en unique_acquis_leca_span_0.3 span 0.5 1 10 0.3
+```
 
 
 ### Generate
