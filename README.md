@@ -33,11 +33,13 @@ Step2. Filter dictionary. (filter_dict.py)
 
 Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
 
-Step4. Filter sentence by length (filter_data.py)
+Step4. Delete unmatched sentences
 
-Step5. Binarize dataset (binarize_dataset.sh)
+Step5. Filter sentence by length (filter_data.py)
 
-Step6. Span making (make_tok.sh -> make_span.py)
+Step6. Binarize dataset (binarize_dataset.sh)
+
+Step7. Span making (make_tok.sh -> make_span.py)
 
 ### 2. Train a transformer with SSP
 ```bash
