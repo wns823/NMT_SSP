@@ -17,7 +17,10 @@ pip install --editable .
 ## Getting Started
 
 ### Data preprocessing
-First,
+In Ko-En dataset, 
+
+
+In De-En datset,
 
 
 ### Train a transformer with SSP
