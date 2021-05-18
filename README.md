@@ -19,13 +19,17 @@ pip install --editable .
 ## Getting Started
 
 ### Data preprocessing
-In Ko-En dataset, 
+Step1. Place the data in appropriate folder.
 
+Step2. Filter dictionary. (filter_dict.py)
 
-In De-En datset,
+Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
 
-dictionary matching
-span making
+Step4. Filter sentence by length (filter_data.py)
+
+Step5. Binarize dataset (binarize_dataset.sh)
+
+Step6. Span making (make_tok.sh -> make_span.py)
 
 ### Train a transformer with SSP
 First, 
