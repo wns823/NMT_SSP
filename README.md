@@ -22,6 +22,8 @@ In Ko-En dataset,
 
 In De-En datset,
 
+dictionary matching
+span making
 
 ### Train a transformer with SSP
 First, 
