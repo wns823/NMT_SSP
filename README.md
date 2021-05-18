@@ -33,3 +33,17 @@ First,
 
 ### Generate
 First, 
+
+
+### Citation
+
+```bibtex
+@inproceedings{nmtssp2021,
+  title     = {Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction},
+  author    = {Gyubok Lee, Seongjun Yang, Edward Choi},
+  booktitle = {Proceedings of {ACL} 2021: Main conference},          
+  pages     = {0--0},
+  year      = {2021},
+  month     = {8},
+}
+```
