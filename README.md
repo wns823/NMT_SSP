@@ -1,6 +1,12 @@
 ## Introduction
 This repository contains the code for the ACL-21 paper:[Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
 
+## Data download
+- De-En OPUS Acquis, Emea data
+- De-En IATE data
+- Ko-En law data
+- Ko-En law dictionary 
+
 ## Requirments and Installation
 - [Pytorch](https://pytorch.org) version == 1.7.1
 - Python version >= 3.7
