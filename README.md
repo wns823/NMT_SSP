@@ -5,7 +5,7 @@ This repository contains the code for the ACL-21 paper:[Improving Lexically Cons
 - [Pytorch](https://pytorch.org) version == 1.7.1
 - Python version >= 3.7
 
-##### Installing from source
+##### 0. Installing from source
 
 To install fairseq from source and develop locally :
 ```
@@ -20,7 +20,7 @@ pip install spacy
 
 ## Getting Started
 
-### Data preprocessing
+### 1. Data preprocessing
 Step1. Place the data in appropriate folder.
 
 Step2. Filter dictionary. (filter_dict.py)
@@ -33,20 +33,20 @@ Step5. Binarize dataset (binarize_dataset.sh)
 
 Step6. Span making (make_tok.sh -> make_span.py)
 
-### Train a transformer with SSP
+### 2. Train a transformer with SSP
 ```bash
 bash train.sh gpu_number domain src tgt model_path span loss_ratio min_span max_span dropout
 ex) bash train.sh 3 acquis de en acquis_leca_span_0.3 span 0.5 1 10 0.3
 ```
 
 
-### Generate
+### 3. Generate
 ```bash
 bash train.sh gpu_number domain src tgt model_path use_dictionary
 ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0
 ```
 
-### TER, LSM score
+### 4. TER, LSM score
 ```bash
 ex) python ngram_inference.py --domain acquis --src_lang de --tgt_lang en --outputfile result_collection/law_leca_span_with_dict.txt
 ```
