@@ -21,7 +21,10 @@ git clone https://github.com/moses-smt/mosesdecoder.git
 git clone https://github.com/rsennrich/subword-nmt.git
 pip install --editable .
 pip install wandb
-pip install spacy
+pip install spacy==2.2.4
+pip install mecab-python3==0.996.5
+pip install konlpy==0.5.2
+pip install tokenizers==0.10.2
 ```
 
 ## Getting Started
