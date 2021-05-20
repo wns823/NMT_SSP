@@ -1,7 +1,7 @@
 ## Introduction
 This repository contains the code for the ACL-21 paper:[Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
 
-We show code that applies our method to Leca(https://github.com/ghchen18/leca) because it can show inference results without dictionary and with dictionary. 
+We show code that applies our method to [Leca](https://github.com/ghchen18/leca) because it can show inference results without dictionary and with dictionary. 
 
 ## Data download
 I'll uploading data and data link soon.
@@ -10,7 +10,7 @@ I'll uploading data and data link soon.
 - De-En IATE
 
 - Ko-En law data <br>
-Download the KO-EN corpus by this link(https://www.aihub.or.kr/aidata/87/download)
+Download the KO-EN corpus by this [link](https://www.aihub.or.kr/aidata/87/download)
 - Ko-En law dictionary 
 
 ## Requirments and Installation
