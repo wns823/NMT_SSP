@@ -39,7 +39,7 @@ pip install tokenizers==0.10.2
 ## Getting Started
 
 ### 1. Data preprocessing
-Step1. Place the data in appropriate folder.
+Step1. Place the data in the appropriate folder.
 
 Step2. Filter dictionary. (filter_dict.py)
 
