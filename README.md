@@ -11,9 +11,9 @@ Download the DE-EN OPUS Acquis, Emea dataset by this [link](https://opus.nlpl.eu
 - DE-EN IATE dictionary <br>
 Download the DE-EN dictionary by this [link](https://drive.google.com/file/d/1XFJ257xK3eAzh9tRnJMGm0KCRl3TyJr9/view?usp=sharing)
 
-- KO-EN law data <br>
+- KO-EN Law data <br>
 Download the KO-EN corpus by this [link](https://www.aihub.or.kr/aidata/87/download)
-- KO-EN law dictionary <br>
+- KO-EN Law dictionary <br>
 Download the KO-EN dictionary by this [link](https://drive.google.com/file/d/1n626huC-6x5R7OEzLiKr5N7ulNGMxrLJ/view?usp=sharing)
 
 ## Requirments and Installation
