@@ -45,7 +45,7 @@ Step2. Filter dictionary. (filter_dict.py)
 
 Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
 
-Step4. Delete sentences that don't match the dictionary
+Step4. Delete sentences that doesn't match the dictionary
 
 Step5. Filter sentence by length (filter_data.py)
 
