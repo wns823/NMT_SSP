@@ -5,13 +5,16 @@ We show code that applies our method to [Leca](https://github.com/ghchen18/leca)
 
 ## Data download
 I'll uploading data and data link soon.
-- De-En OPUS Acquis, Emea
+- DE-EN OPUS Acquis, Emea <br>
+Download the DE-EN OPUS Acquis, Emea dataset by this [link](https://opus.nlpl.eu/)
 
-- De-En IATE
+- DE-EN IATE dictionary <br>
+Download the DE-EN dictionary by this [link](https://drive.google.com/file/d/1XFJ257xK3eAzh9tRnJMGm0KCRl3TyJr9/view?usp=sharing)
 
-- Ko-En law data <br>
+- KO-EN law data <br>
 Download the KO-EN corpus by this [link](https://www.aihub.or.kr/aidata/87/download)
-- Ko-En law dictionary 
+- KO-EN law dictionary <br>
+Download the KO-EN dictionary by this [link](https://drive.google.com/file/d/1n626huC-6x5R7OEzLiKr5N7ulNGMxrLJ/view?usp=sharing)
 
 ## Requirments and Installation
 - [Pytorch](https://pytorch.org) version == 1.7.1
