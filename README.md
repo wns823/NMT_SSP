@@ -62,7 +62,7 @@ ex) bash train.sh 3 acquis de en acquis_leca_span_0.3 span 0.5 1 10 0.3
 
 ### 3. Generate
 ```bash
-bash train.sh gpu_number domain src tgt model_path use_dictionary
+bash inference.sh 0 acquis de en model_path 0
 ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0
 ```
 
