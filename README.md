@@ -55,15 +55,16 @@ Step7. Span making (make_tok.sh -> make_span.py)
 
 ### 2. Train a transformer with SSP
 ```bash
-bash train.sh gpu_number domain src tgt model_path span loss_ratio min_span max_span dropout
+bash train.sh gpu domain src tgt model_path span loss_ratio min_span max_span dropout
 ex) bash train.sh 3 acquis de en acquis_leca_span_0.3 span 0.5 1 10 0.3
 ```
 
 
 ### 3. Generate
 ```bash
-bash inference.sh 0 acquis de en model_path 0
-ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0
+bash inference.sh gpu domain src tgt model_path with_dictionary
+ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0 (without dictionary)
+ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0 (with dictionary)
 ```
 
 ### 4. TER, LSM score
