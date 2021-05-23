@@ -39,7 +39,7 @@ pip install tokenizers==0.10.2
 ## Getting Started
 
 ### 1. Data preprocessing
-Step1. Place the data in the appropriate folder.
+Step1. Place the data in the appropriate folder. <br>
 dict_law_en_ko.json, iate_en_de_all.json -> dictionary folder
 
 Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
