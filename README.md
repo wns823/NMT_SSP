@@ -39,20 +39,20 @@ pip install tokenizers==0.10.2
 ## Getting Started
 
 ### 1. Data preprocessing
-Step1. Place the data in the appropriate folder. <br>
+#### Step1. Place the data in the appropriate folder.
 dict_law_en_ko.json, iate_en_de_all.json -> dictionary folder
 
-Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
+#### Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
 
-Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
+#### Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
 
-Step4. Delete sentences that doesn't match the dictionary
+#### Step4. Delete sentences that doesn't match the dictionary
 
-Step5. Filter sentence by length (filter_data.py)
+#### Step5. Filter sentence by length (filter_data.py)
 
-Step6. Binarize dataset (binarize_dataset.sh)
+#### Step6. Binarize dataset (binarize_dataset.sh)
 
-Step7. Span making (make_tok.sh -> make_span.py)
+#### Step7. Span making (make_tok.sh -> make_span.py)
 
 ### 2. Train a transformer with SSP
 ```bash
