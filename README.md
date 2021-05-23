@@ -41,7 +41,7 @@ pip install tokenizers==0.10.2
 ### 1. Data preprocessing
 Step1. Place the data in the appropriate folder.
 
-Step2. Filter dictionary. (filter_dict.py)
+Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
 
 Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
 
