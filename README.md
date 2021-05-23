@@ -63,8 +63,8 @@ ex) bash train.sh 3 acquis de en acquis_leca_span_0.3 span 0.5 1 10 0.3
 ### 3. Generate
 ```bash
 bash inference.sh gpu domain src tgt model_path with_dictionary
-ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0 (without dictionary)
-ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 1 (with dictionary)
+ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 1 (without dictionary)
+ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0 (with dictionary)
 ```
 
 ### 4. TER, LSM score
