@@ -57,13 +57,23 @@ ex) python data_split_algorithm.py --domain emea --src_path raw_data/EMEA.de-en.
 ex) python data_split_algorithm.py --domain law --src_path raw_data/law-all.ko  --tgt_path raw_data/law-all.en --directory_path dictionary/dict_law_en_ko.json --src_lang ko
 ```
 
-#### Step4. Filter sentence by length (filter_data.py)
+#### Step4. Tokenize and BPE
+```bash
+In DE-EN,
+bash tokenizing_bpe_gen.sh
+bash tokenizing_bpe_apply.sh
+In KO-EN,
+bash tokenizing_bpe_gen_ko.sh
+bash tokenizing_bpe_apply_ko.sh
+```
+
+#### Step5. Filter sentence by length (filter_data.py)
 
 
-#### Step5. Binarize dataset (binarize_dataset.sh)
+#### Step6. Binarize dataset (binarize_dataset.sh)
 
 
-#### Step6. Span making (make_tok.sh -> make_span.py)
+#### Step7. Span making (make_tok.sh -> make_span.py)
 
 
 ### 2. Train a transformer with SSP
