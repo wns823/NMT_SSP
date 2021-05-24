@@ -60,8 +60,10 @@ ex) python data_split_algorithm.py --domain law --src_path raw_data/law-all.ko  
 #### Step4. Tokenize and BPE
 ```bash
 In DE-EN,
-bash tokenizing_bpe_gen.sh
-bash tokenizing_bpe_apply.sh
+bash tokenizing_bpe_gen.sh domain split
+ex) bash tokenizing_bpe_gen.sh acquis train
+bash tokenizing_bpe_apply.sh domain split
+ex) bash tokenizing_bpe_apply.sh acquis valid
 In KO-EN,
 bash tokenizing_bpe_gen_ko.sh
 bash tokenizing_bpe_apply_ko.sh
