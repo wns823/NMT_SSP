@@ -90,20 +90,20 @@ python make_span.py --directory emea_deen --src de --tgt en --saved data-bin/eme
 ### 2. Train a transformer with SSP
 ```bash
 bash train.sh gpu domain src tgt model_path span loss_ratio min_span max_span dropout
-ex) bash train.sh 3 acquis de en acquis_leca_span_0.3 span 0.5 1 10 0.3
+ex) bash train.sh 2 emea de en emea_leca_span_0.3 span 0.5 1 10 0.3
 ```
 
 
 ### 3. Generate
 ```bash
 bash inference.sh gpu domain src tgt model_path with_dictionary
-ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 1 (without dictionary)
-ex) bash inference.sh 0 acquis de en acquis_leca_span_0.3 0 (with dictionary)
+ex) bash inference.sh 0 acquis de en emea_leca_span_0.3 1 (without dictionary)
+ex) bash inference.sh 0 acquis de en emea_leca_span_0.3 0 (with dictionary)
 ```
 
 ### 4. TER, LSM score
 ```bash
-ex) python ngram_inference.py --domain acquis --src_lang de --tgt_lang en --outputfile result_collection/law_leca_span_with_dict.txt
+ex) python ngram_inference.py --domain emea --src_lang de --tgt_lang en --outputfile inference_result/emea_leca_span_0.3.txt
 ```
 
 
