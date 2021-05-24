@@ -41,8 +41,10 @@ pip install parmap
 
 ### 1. Data preprocessing
 #### Step1. Place the data in the appropriate folder.
+```
 dict_law_en_ko.json, iate_en_de_all.json → dictionary folder <br>
 corpus → raw_data folder
+```
 
 #### Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
 ```bash
@@ -57,9 +59,12 @@ ex) python data_split_algorithm.py --domain law --src_path raw_data/law-all.ko  
 
 #### Step4. Filter sentence by length (filter_data.py)
 
+
 #### Step5. Binarize dataset (binarize_dataset.sh)
 
+
 #### Step6. Span making (make_tok.sh -> make_span.py)
+
 
 ### 2. Train a transformer with SSP
 ```bash
