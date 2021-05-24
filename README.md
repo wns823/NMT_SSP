@@ -34,6 +34,7 @@ pip install spacy==2.2.4
 pip install mecab-python3==0.996.5
 pip install konlpy==0.5.2
 pip install tokenizers==0.10.2
+pip install parmap
 ```
 
 ## Getting Started
@@ -41,10 +42,18 @@ pip install tokenizers==0.10.2
 ### 1. Data preprocessing
 #### Step1. Place the data in the appropriate folder.
 dict_law_en_ko.json, iate_en_de_all.json -> dictionary folder
+corpus -> raw_data folder
 
 #### Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
-
+```bash
+python filter_dict.py --min 4 --max 20
+```
 #### Step3. Split data by terminology-aware data split algorithm (data_split_algorithm.py)
+```bash
+ex) python data_split_algorithm.py --domain acquis --src_path raw_data/JRC-Acquis.de-en.de  --tgt_path raw_data/JRC-Acquis.de-en.en --directory_path dictionary/iate_en_de_filter.json --src_lang de
+ex) python data_split_algorithm.py --domain emea --src_path raw_data/EMEA.de-en.de  --tgt_path raw_data/EMEA.de-en.en --directory_path dictionary/iate_en_de_filter.json --src_lang de
+ex) python data_split_algorithm.py --domain law --src_path raw_data/law-all.ko  --tgt_path raw_data/law-all.en --directory_path dictionary/dict_law_en_ko.json --src_lang ko
+```
 
 #### Step4. Delete sentences that doesn't match the dictionary
 
