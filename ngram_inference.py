@@ -47,7 +47,7 @@ if __name__ == "__main__" :
 
     pred = open( f'{output_file}', 'r').readlines()
     
-    phrase = open( f'phrase/{domain}-phrase-test.{src_lang}-{tgt_lang}', 'r').readlines() 
+    phrase = open( f'{domain}_{src_lang}{tgt_lang}/{domain}-phrase-test.{src_lang}-{tgt_lang}', 'r').readlines() 
 
     
     #################################################################################

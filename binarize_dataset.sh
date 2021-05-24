@@ -2,7 +2,7 @@ domain=$1 # law, acquis, emea
 sl=$2 # de
 tl=$3 # en
 
-data_dir=${domain}_dataset
+data_dir=${domain}_${sl}${tl}
 out_dir=data-bin
 
 fairseq-preprocess --source-lang ${sl} --target-lang ${tl} \

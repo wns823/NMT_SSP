@@ -32,7 +32,7 @@ if __name__ == "__main__" :
     
     parser = argparse.ArgumentParser()
 
-    # python make_span.py --directory law_dataset --src ko --tgt en --saved data-bin/law_koen
+    # python make_span.py --directory emea_deen --src de --tgt en --saved data-bin/emea_deen
     # load model
     parser.add_argument('--directory', required=True, help='File path')
 

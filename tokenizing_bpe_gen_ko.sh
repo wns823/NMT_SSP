@@ -1,6 +1,6 @@
 domain=$1 # law
-source_lang=$2 # en
-target_lang=$3 # ko
+source_lang=$2 # ko
+target_lang=$3 # en
 pp=$4 # 1.0
 # max_src=60
 # max_trg=60

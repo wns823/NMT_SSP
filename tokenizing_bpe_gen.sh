@@ -5,13 +5,13 @@ domain=$1
 bpe_operations=20000 # 32000
 S=de
 T=en
-data_dir=original_datset/${domain}_${S}${T}
-dest_dir=preprocess_dataset/${domain}_${S}${T}
-split=train # law-dev, law-test
+data_dir=original_dataset
+dest_dir=preprocess_dataset
+split=train #
 
 ## 0. Remove unneccessary punctuation
-perl $moses_scripts/tokenizer/normalize-punctuation.perl < $data_dir/${split}.$S > $dest_dir/${domain}-${split}.$S
-perl $moses_scripts/tokenizer/normalize-punctuation.perl < $data_dir/${split}.$T > $dest_dir/${domain}-${split}.$T
+perl $moses_scripts/tokenizer/normalize-punctuation.perl < $data_dir/${domain}-${split}.$S > $dest_dir/${domain}-${split}.$S
+perl $moses_scripts/tokenizer/normalize-punctuation.perl < $data_dir/${domain}-${split}.$T > $dest_dir/${domain}-${split}.$T
 
 
 ## 1. Tokenizing
