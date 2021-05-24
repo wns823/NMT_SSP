@@ -42,7 +42,7 @@ pip install parmap
 ### 1. Data preprocessing
 #### Step1. Place the data in the appropriate folder.
 ```
-dict_law_en_ko.json, iate_en_de_all.json → dictionary folder <br>
+dict_law_en_ko.json, iate_en_de_all.json → dictionary folder
 corpus → raw_data folder
 ```
 
