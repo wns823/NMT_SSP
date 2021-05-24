@@ -41,8 +41,8 @@ pip install parmap
 
 ### 1. Data preprocessing
 #### Step1. Place the data in the appropriate folder.
-dict_law_en_ko.json, iate_en_de_all.json -> dictionary folder <br>
-corpus -> raw_data folder
+dict_law_en_ko.json, iate_en_de_all.json → dictionary folder <br>
+corpus → raw_data folder
 
 #### Step2. Filter dictionary in IATE dictionary. (filter_dict.py)
 ```bash
