@@ -1,5 +1,9 @@
 ## Introduction
-This repository contains the code for the ACL-21 paper: [Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
+This repository contains the code for the ACL-21 paper: 
+
+[Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
+
+Gyubok Lee*, Seongjun Yang*, Edward Choi (\*: equal contribution)
 
 Our code is built upon [Leca](https://github.com/ghchen18/leca) because it works for both with or without a bilingual term dictionary. 
 
