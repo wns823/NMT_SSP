@@ -1,7 +1,7 @@
 ## Introduction
 This repository contains the code for the ACL-21 paper: 
 
-[Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
+[Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498)
 
 Gyubok Lee*, Seongjun Yang*, Edward Choi (\*: equal contribution)
 
