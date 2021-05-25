@@ -1,18 +1,19 @@
 ## Introduction
-This repository contains the code for the ACL-21 paper:[Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
+This repository contains the code for the ACL-21 paper: [Improving Lexically Constrained Neural Machine Translationwith Source-Conditioned Masked Span Prediction](https://arxiv.org/abs/2105.05498).
 
-We show code that applies our method to [Leca](https://github.com/ghchen18/leca) because it can show inference results without dictionary and with dictionary. 
+Our code is built upon [Leca](https://github.com/ghchen18/leca) because it works for both with or without a bilingual term dictionary. 
 
 ## Data download
-I'll uploading data and data link soon.
+We will upload the data and their links soon.
 - DE-EN OPUS Acquis, Emea <br>
 Download the DE-EN OPUS Acquis, Emea dataset by this [link](https://opus.nlpl.eu/)
 
 - DE-EN IATE dictionary <br>
-Download the DE-EN dictionary by this [link](https://drive.google.com/file/d/1XFJ257xK3eAzh9tRnJMGm0KCRl3TyJr9/view?usp=sharing)
+Download the DE-EN dictionary by this [link](https://iate.europa.eu/)
 
 - KO-EN Law data <br>
 Download the KO-EN corpus by this [link](https://www.aihub.or.kr/aidata/87/download)
+
 - KO-EN Law dictionary <br>
 Download the KO-EN dictionary by this [link](https://drive.google.com/file/d/1n626huC-6x5R7OEzLiKr5N7ulNGMxrLJ/view?usp=sharing)
 
