@@ -8,7 +8,6 @@ Gyubok Lee*, Seongjun Yang*, Edward Choi (\*: equal contribution)
 Our code is built upon [Leca](https://github.com/ghchen18/leca) because it works for both with or without a bilingual term dictionary. 
 
 ## Data download
-We will upload the data and their links soon.
 - DE-EN OPUS Acquis, Emea <br>
 Download the DE-EN OPUS Acquis, Emea dataset by this [link](https://opus.nlpl.eu/)
 
