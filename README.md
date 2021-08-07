@@ -114,12 +114,19 @@ ex) python ngram_inference.py --domain emea --src_lang de --tgt_lang en --output
 ### Citation
 
 ```bibtex
-@inproceedings{nmtssp2021,
-  title     = {Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction},
-  author    = {Gyubok Lee, Seongjun Yang, Edward Choi},
-  booktitle = {Proceedings of {ACL} 2021: Main conference},          
-  pages     = {0--0},
-  year      = {2021},
-  month     = {8},
+@inproceedings{lee-etal-2021-improving,
+    title = "Improving Lexically Constrained Neural Machine Translation with Source-Conditioned Masked Span Prediction",
+    author = "Lee, Gyubok  and
+      Yang, Seongjun  and
+      Choi, Edward",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-short.94",
+    doi = "10.18653/v1/2021.acl-short.94",
+    pages = "743--753",
+    abstract = "Accurate terminology translation is crucial for ensuring the practicality and reliability of neural machine translation (NMT) systems. To address this, lexically constrained NMT explores various methods to ensure pre-specified words and phrases appear in the translation output. However, in many cases, those methods are studied on general domain corpora, where the terms are mostly uni- and bi-grams ({\textgreater}98{\%}). In this paper, we instead tackle a more challenging setup consisting of domain-specific corpora with much longer n-gram and highly specialized terms. Inspired by the recent success of masked span prediction models, we propose a simple and effective training strategy that achieves consistent improvements on both terminology and sentence-level translation for three domain-specific corpora in two language pairs.",
 }
 ```
