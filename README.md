@@ -44,7 +44,7 @@ pip install parmap
 ## Getting Started
 
 ### 1. Data preprocessing
-#### Step1. Place the data in the appropriate folder.
+#### Step1. Place the data in the appropriate folder (iate_extract.ipynb to preprocess IATE terms).
 ```
 dict_law_en_ko.json, iate_en_de_all.json → dictionary folder
 corpus → raw_data folder
